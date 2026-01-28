@@ -1,48 +1,27 @@
-\# 🌦 AI Weather Dashboard
+# 🌦 AI-Based Weather Decision Support Dashboard
 
-
-
-A modern weather dashboard built using \*\*Python (Flask)\*\* and the \*\*OpenWeatherMap API\*\*.  
-
-The application fetches real-time weather data and displays it using a clean, glass-style UI.
-
-
+A modern AI-powered weather application that helps users understand real-time weather conditions and make daily decisions based on temperature, humidity, and wind conditions.
 
 ---
 
-
-
-\## 🚀 Features
-
-\- Search weather by city name
-
-\- Real-time temperature, humidity, and wind speed
-
-\- Modern glassmorphism dashboard design
-
-\- Flask backend with API integration
-
-\- Beginner-friendly and easy to extend with AI features
-
-
+## 🚀 Features
+- Real-time weather data by city name
+- Clean and modern glass-style dashboard UI
+- Displays temperature, humidity, wind speed, and conditions
+- Flask-based backend with API integration
+- Designed to be easily extended with AI summaries and chat features
 
 ---
 
-
-
-\## 🛠 Tech Stack
-
-\- \*\*Frontend:\*\* HTML, CSS
-
-\- \*\*Backend:\*\* Python (Flask)
-
-\- \*\*API:\*\* OpenWeatherMap
-
-
+## 🛠️ Tech Stack
+**Backend:** Python (Flask)  
+**Frontend:** HTML, CSS, JavaScript  
+**API:** OpenWeatherMap  
+**Logic:** API-based real-time data processing  
 
 ---
 
+## 📄 License
 
-
-\## 📁 Project Structure
+This project is open-source and intended for learning and academic use.
 
