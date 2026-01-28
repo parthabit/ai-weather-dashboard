@@ -3,7 +3,9 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "ed9aced660679da5e4fa2fe0f67e8ddf"
+import os
+
+API_KEY = os.environ.get("OPENWEATHER_API_KEY")
 
 @app.route("/", methods=["GET", "POST"])
 def index():
@@ -36,4 +38,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
