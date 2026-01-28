@@ -1,0 +1,46 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Weather Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <div class="top-bar">
+        <div>
+            <h2>Weather Dashboard</h2>
+            <p>{{ weather.city if weather else "Enter a city" }}</p>
+        </div>
+
+        <form method="POST">
+            <input type="text" name="city" placeholder="Search city..." required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    {% if weather %}
+    <div class="main-card">
+        <div class="left">
+            <h1>{{ weather.temp }}°C</h1>
+            <p class="desc">{{ weather.description }}</p>
+            <p class="feel">Feels normal today</p>
+        </div>
+
+        <div class="right">
+            <div class="info">💧 Humidity: {{ weather.humidity }}%</div>
+            <div class="info">🌬 Wind: {{ weather.wind }} m/s</div>
+            <div class="info">🌡 Pressure: Standard</div>
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
