@@ -19,7 +19,7 @@ A modern AI-powered weather application that helps users understand real-time we
 **API:** OpenWeatherMap  
 **Logic:** API-based real-time data processing  
 
----
+--
 
 ## 📄 License
 
