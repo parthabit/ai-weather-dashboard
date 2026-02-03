@@ -1,6 +1,6 @@
 # 🌦 AI-Based Weather Decision Support Dashboard
 
-A modern AI-powered weather application that helps users understand real-time weather conditions and make daily decisions based on temperature, humidity, and wind conditions.
+A modern AI-powered weather application that helps users understand real-time weather conditions and make daily decisions based on temperature, humidity, and wind condition.
 
 ---
 
