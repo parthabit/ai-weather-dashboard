@@ -9,7 +9,7 @@ A modern AI-powered weather application that helps users understand real-time we
 - Clean and modern glass-style dashboard UI
 - Displays temperature, humidity, wind speed, and conditions
 - Flask-based backend with API integration
-- Designed to be easily extended with AI summaries and chat features
+- Designed to be easily extended with AI summaries and chat feature
 
 ---
 
