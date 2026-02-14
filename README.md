@@ -21,7 +21,5 @@ A modern AI-powered weather application that helps users understand real-time we
 
 ---
 
-## 📄 License
 
-This project is open-source and intended for learning and academic use.
 
