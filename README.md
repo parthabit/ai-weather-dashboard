@@ -16,8 +16,8 @@ A modern AI-powered weather application that helps users understand real-time we
 ## 🛠️ Tech Stack
 **Backend:** Python (Flask)  
 **Frontend:** HTML, CSS, JavaScript  
-**API:** OpenWeatherMap  
-**Logic:** API-based real-time data processing  
+**API:** OpenWeatherMap.
+**Logic:** API-based real-time data processing.
 
 ---
 
