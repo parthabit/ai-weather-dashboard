@@ -22,5 +22,5 @@ A modern AI-powered weather application that helps users understand real-time we
 ---
 
 ## Developer
-**Partha Das**
+**Partha**
 
