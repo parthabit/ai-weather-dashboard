@@ -13,6 +13,7 @@ A modern AI-powered weather application that helps users understand real-time we
 
 ---
 
+
 ## 🛠️ Tech Stack
 **Backend:** Python (Flask)  
 **Frontend:** HTML, CSS, JavaScript  
