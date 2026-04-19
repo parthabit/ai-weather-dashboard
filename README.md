@@ -3,7 +3,7 @@
 A modern AI-powered weather application that helps users understand real-time weather conditions and make daily decisions based on temperature, humidity, and wind condition
 (It is under development period and use only for education  purpose)
 ---
-
+ 
 ## 🚀 Features
 - Real-time weather data by city name.
 - Clean and modern glass-style dashboard UI.
